@@ -12,7 +12,11 @@ The processing user needs to create
 
 typical codes:
 
+
 DXF dxf = new DXF();
+
 for (double[][] ps : arr)
+
    dxf.polyC2D(ps);
+
 dxf.save(“.../Desktop/cut_digits.dxf");
