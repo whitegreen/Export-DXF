@@ -17,6 +17,6 @@ DXF dxf = new DXF();
 
 for (double[][] ps : arr)
 
-   dxf.polyC2D(ps);
+   dxf.polyC2D(ps); //closed polygon
 
 dxf.save(“.../Desktop/cut_digits.dxf");
